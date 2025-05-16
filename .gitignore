@@ -1,0 +1,5 @@
+tests/
+controladores/__pycache__/
+controladores/lib/__pycache__/
+modelos/
+vistas/__pycache__/

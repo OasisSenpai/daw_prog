@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1280</width>
+    <height>720</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1280</width>
+    <height>720</height>
+   </size>
+  </property>
+  <property name="cursor">
+   <cursorShape>ArrowCursor</cursorShape>
+  </property>
+  <property name="acceptDrops">
+   <bool>true</bool>
+  </property>
+  <property name="windowTitle">
+   <string>App</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../../recursos/logo.png</normaloff>../../recursos/logo.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #5080ff;</string>
+   </property>
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1281</width>
+      <height>681</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="divPrincipal" stretch="1,4">
+     <property name="sizeConstraint">
+      <enum>QLayout::SizeConstraint::SetDefaultConstraint</enum>
+     </property>
+     <property name="leftMargin">
+      <number>10</number>
+     </property>
+     <property name="topMargin">
+      <number>10</number>
+     </property>
+     <property name="rightMargin">
+      <number>10</number>
+     </property>
+     <property name="bottomMargin">
+      <number>10</number>
+     </property>
+     <item>
+      <layout class="QVBoxLayout" name="menuLateral" stretch="2,4">
+       <item>
+        <widget class="QLabel" name="logo">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>../../recursos/logo.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>false</bool>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignmentFlag::AlignCenter</set>
+         </property>
+         <property name="wordWrap">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupBoxAcciones">
+         <property name="styleSheet">
+          <string notr="true">font-size: 15px;
+background-color: #7aa8eb;
+border-radius: 20px;</string>
+         </property>
+         <property name="title">
+          <string>Acciones</string>
+         </property>
+         <widget class="QWidget" name="layoutWidget">
+          <property name="geometry">
+           <rect>
+            <x>40</x>
+            <y>20</y>
+            <width>171</width>
+            <height>291</height>
+           </rect>
+          </property>
+          <layout class="QVBoxLayout" name="layourAcciones" stretch="0,0,0">
+           <item>
+            <widget class="QPushButton" name="botonAniadirCampo">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <family>Consolas</family>
+               <pointsize>-1</pointsize>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">#botonAniadirCampo {
+	background-color: #8c6aff;
+	border-radius: 20px;
+	height: 40px;
+}
+
+#botonAniadirCampo:hover {
+	background-color: #7aa8eb;
+	border: 2px solid #8c6aff;
+}</string>
+             </property>
+             <property name="text">
+              <string>Añadir fila</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="botonELiminarCampo">
+             <property name="font">
+              <font>
+               <family>Consolas</family>
+               <pointsize>-1</pointsize>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">#botonELiminarCampo {
+	background-color: #8c6aff;
+	border-radius: 20px;
+	height: 40px;
+}
+
+#botonELiminarCampo:hover {
+	background-color: #7aa8eb;
+	border: 2px solid #8c6aff;
+}</string>
+             </property>
+             <property name="text">
+              <string>Eliminar fila</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="botonGuardar">
+             <property name="font">
+              <font>
+               <family>Consolas</family>
+               <pointsize>-1</pointsize>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">#botonGuardar {
+	background-color: #8c6aff;
+	border-radius: 20px;
+	height: 40px;
+}
+
+#botonGuardar:hover {
+	background-color: #7aa8eb;
+	border: 2px solid #8c6aff;
+}</string>
+             </property>
+             <property name="text">
+              <string>Guardar tabla (BBDD)</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="visorTabla" stretch="1,8">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="6,4,1">
+         <item>
+          <widget class="QLabel" name="nombreTabla">
+           <property name="font">
+            <font>
+             <family>Consolas</family>
+             <pointsize>19</pointsize>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>Nombre de la tabla</string>
+           </property>
+           <property name="textFormat">
+            <enum>Qt::TextFormat::RichText</enum>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignmentFlag::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="entryBuscar">
+           <property name="statusTip">
+            <string/>
+           </property>
+           <property name="whatsThis">
+            <string/>
+           </property>
+           <property name="accessibleName">
+            <string/>
+           </property>
+           <property name="accessibleDescription">
+            <string/>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">#entryBuscar {
+	background-color: white;
+	border-radius: 20px;
+	font-size: 15px;
+	height: 40px;
+}</string>
+           </property>
+           <property name="placeholderText">
+            <string>Filtrar por nombre</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Orientation::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QTableWidget" name="vistaTabla">
+         <property name="styleSheet">
+          <string notr="true">QTableView {
+	height: 40px;
+	background-color: rgb(255, 255, 255);
+    border-radius: 20px; /* Ajusta el valor para redondear más o menos los bordes */
+    border: 1px solid #ccc; /* Un borde sutil para definir la tabla */
+	padding: 5px;
+}
+
+QTableView::viewport {
+	height: 40px;
+	border-radius: 20px;
+    background-color: #6B8E23;
+}
+
+QTableView::corner {
+    background-color: #6B8E23; /* Color de la esquina superior izquierda */
+    border-top-left-radius: 20px;
+}
+
+QTableView::horizontalHeader {
+    background-color: #6B8E23; /* Color de la esquina superior izquierda */
+    border-top-left-radius: 20px;
+}
+
+QTableView::verticalHeader {
+    background-color: #6B8E23; /* Color de la esquina superior izquierda */
+    border-top-left-radius: 20px;
+}
+
+QTableView::item {
+    padding: 5px; /* Espacio dentro de cada celda */
+	border-radius: 20px;
+}
+
+QTableView::row:nth-child(odd) {
+    background-color: #8FBC8F; /* Verde medio (MediumSeaGreen) para filas impares */
+	border-radius: 20px;
+}
+
+QTableView::row:nth-child(even) {
+    background-color: #98FB98; /* Verde claro (PaleGreen) para filas pares */
+	border-radius: 20px;
+}
+
+QHeaderView::section {
+    background-color: #6B8E23; /* Verde oscuro (OliveDrab) para la cabecera */
+    color: white;
+    padding: 5px;
+    border: none;
+	border-radius: 20px;
+}
+
+QHeaderView::section:horizontal:first {
+	border-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+QHeaderView::section:horizontal:last {
+    border-top-right-radius: 20px;
+}</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1280</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuOpciones">
+    <property name="title">
+     <string>Opciones</string>
+    </property>
+    <addaction name="actionExportar_tabla"/>
+    <addaction name="separator"/>
+    <addaction name="actionSalir"/>
+   </widget>
+   <widget class="QMenu" name="menuTablas">
+    <property name="title">
+     <string>Tablas</string>
+    </property>
+    <addaction name="actionCursos"/>
+    <addaction name="actionDepartamentos"/>
+    <addaction name="actionEspecialidades"/>
+    <addaction name="actionHorasDepartamentos"/>
+    <addaction name="actionMaterias"/>
+    <addaction name="actionOptativas"/>
+    <addaction name="actionTipos_de_asignatura"/>
+    <addaction name="actionTurnos"/>
+   </widget>
+   <addaction name="menuOpciones"/>
+   <addaction name="menuTablas"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionSalir">
+   <property name="text">
+    <string>Salir</string>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::ShortcutContext::WindowShortcut</enum>
+   </property>
+  </action>
+  <action name="actionExportar_tabla">
+   <property name="text">
+    <string>Exportar tabla (.csv)</string>
+   </property>
+  </action>
+  <action name="actionMaterias">
+   <property name="text">
+    <string>Materias</string>
+   </property>
+  </action>
+  <action name="actionCursos">
+   <property name="text">
+    <string>Cursos</string>
+   </property>
+  </action>
+  <action name="actionDepartamentos">
+   <property name="text">
+    <string>Departamentos</string>
+   </property>
+  </action>
+  <action name="actionEspecialidades">
+   <property name="text">
+    <string>Especialidades</string>
+   </property>
+  </action>
+  <action name="actionOptativas">
+   <property name="text">
+    <string>Optativas</string>
+   </property>
+  </action>
+  <action name="actionTipos_de_asignatura">
+   <property name="text">
+    <string>Tipos de asignatura</string>
+   </property>
+  </action>
+  <action name="actionTurnos">
+   <property name="text">
+    <string>Turnos</string>
+   </property>
+  </action>
+  <action name="actionHorasDepartamentos">
+   <property name="text">
+    <string>Horas departementos</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>actionSalir</sender>
+   <signal>triggered(bool)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>639</x>
+     <y>359</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
