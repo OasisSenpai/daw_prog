@@ -1,0 +1,21 @@
+1;ByG;Biología y Geología
+2;EDF;Educación Física
+3;Fra;Francés
+4;GyH;Geografía e Historia
+5;LcyL;Lengua Castellana y Literatura
+6;Ing;Inglés
+7;Mat;Matemáticas
+8;Mus;Música
+9;Pla;Plástica
+10;Rel;Religión
+11;Tec;Tecnología
+12;Clas;Clásica
+13;Fil;Filosofía
+14;FyQ;Física y Química
+15;Eco;Economía
+16;Inf;Informática y Comunicaciones
+17;Com;Comercio
+18;Adm;Administración
+19;FOL;FOL
+20;For;Forestal
+30;PDT;Pendiente

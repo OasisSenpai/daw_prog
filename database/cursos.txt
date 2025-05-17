@@ -1,0 +1,29 @@
+1;1º ESO;4;1
+2;2ª ESO;4;1
+3;3º ESO;3;1
+4;4º ESO;3;1
+5;1º Bachilerato;5;1
+6;2º Bachillerato;4;1
+7;1º GM SMR;3;1
+8;2º GM SMR;3;1
+9;1º GS ASIR;2;1
+10;2º GS ASIR;2;1
+11;1º GS DAM;2;1
+12;2º GS DAM;2;1
+13;1º GM ACOM;1;1
+14;2º GM ACOM;1;1
+15;1º GSCINT;2;1
+16;2º GSCINT;2;1
+17;1º GSTYL;2;1
+18;2º GSTYL;2;1
+19;1º GB Admon;1;1
+20;2º GB Admon;1;1
+21;1º GM ADTVA;2;1
+22;2º GM ADTVA;2;1
+23;1º GS AFI;3;1
+24;2º GS AFI;3;1
+25;1º GS ASD;1;1
+26;2º GS ASD;1;1
+27;1º GB Forestal;1;1
+28;2º GB Forestal;1;1
+30;Varios;1;1

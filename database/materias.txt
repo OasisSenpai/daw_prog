@@ -1,0 +1,312 @@
+1;Biología y Geología;Comunes;3;1;2;1;30
+2;Educación Física;Comunes;2;1;1;2;30
+3;Francés 2ª lengua extranjera: F;Optativas;2;1;3;3;30
+4;Geografía e Historia;Comunes;4;1;2;4;30
+5;Lengua Castellana y Literatura;Comunes;5;1;1;5;30
+6;Lengua extranjera: Inglés;Idiomas;4;1;2;6;30
+7;Matemáticas;Comunes;4;1;1;7;30
+8;Música;Comunes;2;1;2;8;30
+9;Proyectos de Artes Plásticas y;Optativas;2;1;3;9;30
+10;Religión Católica;Religión;1;1;1;10;30
+11;Tecnología y Digitalización;Comunes;2;1;1;11;30
+12;Cultura Clásica;Optativas;2;2;3;12;30
+13;Desarrollo Digital;Optativas;2;2;3;11;30
+14;Educación en Valores Cívicos y;Comunes;2;2;1;13;30
+15;Educación Física;Comunes;2;2;1;2;30
+16;Educación Plástica Visual y A;Comunes;2;2;1;9;30
+17;Física y Química PL;Comunes;3;2;6;1;30
+18;Física y Química;Comunes;3;2;1;14;30
+19;Francés 2ª lengua extranjera:;Optativas;2;2;3;3;30
+20;Geografía e Historia;Comunes;3;2;2;4;30
+21;Lengua Castellana y Literatura;Comunes;4;2;1;5;30
+22;Lengua extranjera: Inglés;Idiomas;4;2;2;6;30
+23;Matemáticas;Comunes;4;2;1;7;30
+24;Música;Comunes;2;2;2;8;30
+25;Religión Católica;Religión;1;2;1;10;30
+26;Ámbito Científico-Tecnológico;Ámbitos DIVER / PMAR;9;3;5;;30
+27;Ámbito Lingüístico y Social;Ámbitos DIVER / PMAR;8;3;5;;30
+28;Biología y Geología;Comunes;3;3;2;1;30
+29;Educación Física;Comunes;2;3;2;2;30
+30;Educación Plástica Visual y A;Comunes;2;3;1;9;30
+31;Emprendimiento Sostenibilidad;Optativas;2;3;3;15;30
+32;Física y Química;Comunes;3;3;1;14;30
+33;Francés 2ª lengua extranjera:;Optativas;2;3;4;3;30
+34;Geografía e Historia;Comunes;3;3;2;4;30
+35;Lengua Castellana y Literatura;Comunes;4;3;1;5;30
+36;Lengua extranjera: Inglés;Idiomas;3;3;12;6;30
+37;Matemáticas;Comunes;4;3;1;7;30
+38;Música Activa Movimiento y Fo;Optativas;2;3;3;8;30
+39;Religión Católica;Religión;1;3;1;10;30
+40;Tecnología y Digitalización;Comunes;2;3;1;11;30
+41;Ámbito Científico-Tecnológico;Ámbitos DIVER / PMAR;9;4;5;;30
+42;Ámbito Lingüístico y Social;Ámbitos DIVER / PMAR;8;4;5;;30
+43;Artes Escénicas Danza y Folcl;Optativas;2;4;3;5;30
+44;Biología y Geología;Opción 2;3;4;3;1;30
+45;Cultura Científica;Optativas;2;4;3;1;30
+46;Digitalización;Opción 1;3;4;3;11;30
+47;Economía y Emprendimiento;Opción 3;3;4;3;15;30
+48;Educación Física;Comunes;2;4;2;2;30
+49;Expresión Artística;Opción 2;3;4;3;9;30
+50;Filosofía;Optativas;2;4;3;13;30
+51;Física y Química;Opción 3;3;4;3;14;30
+52;Francés 2ª lengua extranjera: F;Opción 1;3;4;4;3;30
+53;Geografía e Historia;Comunes;3;4;2;4;30
+54;Latín;Opción 2;3;4;3;12;30
+55;Lengua Castellana y Literatura;Comunes;4;4;1;5;30
+56;Lengua extranjera: Inglés;Idiomas;4;4;2;6;30
+57;Matemáticas A/B;Matemáticas;4;4;1;7;30
+58;Música;Opción 3;3;4;3;8;30
+59;Proyectos de Robótica;Optativas;2;4;4;11;30
+60;Religión Católica;Religión;1;4;1;10;30
+61;Anatomía Aplicada;Optativas;4;5;7;1;30
+62;Biología;Específica de opción;4;5;7;1;30
+63;Educación Física;Comunes;2;5;1;2;30
+64;Mat. aplic. Ciencias Soc. I;Específicas obligatorias;4;5;7;7;1
+65;Historia del Mundo Contemporán;Específica de opción;4;5;8;4;30
+66;Matemáticas I;Específicas obligatorias;4;5;8;7;1
+67;Lengua Castellana y Literatura;Comunes;4;5;1;5;30
+68;Artes escénicas I;Específica de opción;4;5;7;5;30
+69;Literatura universal;Específica de opción;4;5;7;5;30
+70;Inglés Lengua extranjera I: ;Idiomas;3;5;1;6;30
+71;Francés 2ª lengua extranjera I: ;Optativas;4;5;8;3;2
+72;Unión Europea;Optativas;4;5;11;4;3
+73;Análisis musical I;Específicas obligatorias;4;5;7;8;30
+74;Lenguaje y Práctica Musical;Específica de opción;4;5;7;8;30
+75;Proyectos Artísticos;Específica de opción;4;5;7;8;30
+76;Coro y Técnica Vocal I;Optativas;4;5;7;8;30
+77;Dibujo Artístico I;Específicas obligatorias;4;5;7;9;30
+78;Dibujo Técnico Aplicado a Arte;Específica de opción;4;5;7;9;30
+79;Dibujo Técnico II;Específica de opción;4;5;7;9;30
+80;Volumen;Específica de opción;4;5;7;9;30
+81;Cultura audiovisual;Optativas;4;5;8;9;30
+82;Religión Católica;Religión;2;5;1;10;30
+83;Tecnología e Ingeniería I;Optativas;4;5;7;11;30
+84;Desarrollo Digital;Optativas;4;5;8;30;30
+85;Latín I;Específicas obligatorias;4;5;7;12;30
+86;Filosofía;Comunes;3;5;1;13;30
+87;Psicología;Optativas;4;5;8;30;30
+88;Física y Química;Específica de opción;4;5;8;14;30
+89;Economía;Específica de opción;4;5;7;15;30
+90;Biología;Específica de opción;4;6;7;1;30
+91;Geología y ciencias ambientale;Específica de opción;4;6;7;1;30
+92;Historia de España;Comunes;3;6;1;4;30
+93;Historia del arte;Específica de opción;4;6;7;4;30
+94;Geografía;Específica de opción;4;6;8;4;30
+95;Historia de la música y la dan;Optativas;4;6;7;4;30
+96;Lengua Castellana y Literatura;Comunes;4;6;1;5;30
+97;Artes escénicas II;Específicas obligatorias;4;6;7;5;30
+98;Literatura dramática;Optativas;4;6;7;5;30
+99;Inglés Lengua extranjera II: ;Idiomas;4;6;1;6;30
+100;Matemáticas II;Específicas obligatorias;4;6;7;7;30
+101;Mat. aplic. Ciencias Soc. II;Específicas obligatorias;4;6;7;7;30
+102;Análisis musical II;Específicas obligatorias;4;6;7;8;30
+103;Coro y técnica vocal II;Optativas;4;6;7;8;30
+104;Dibujo Artístico II;Específicas obligatorias;4;6;7;9;30
+105;Dibujo técnico aplicado a arte;Específica de opción;4;6;7;9;30
+106;Dibujo Técnico II;Específica de opción;4;6;7;9;30
+107;Tecnología e Ingeniería II;Específica de opción;4;6;7;11;30
+108;Latín II;Específicas obligatorias;4;6;7;12;30
+109;Historia de la filosofía;Comunes;3;6;1;13;30
+110;Física;Específica de opción;4;6;7;14;30
+111;Química;Específica de opción;4;6;7;14;30
+112;Empresa y diseño de modelos de;Específica de opción;4;6;7;15;30
+113;Diseño;Optativas;4;6;7;30;30
+114;Fundamentos artísticos;Específica de opción;4;6;7;30;30
+115;Técnicas de expresión gráfico-;Optativas;4;6;7;30;30
+116;Creación de contenidos artísti;Optativas;4;6;8;30;30
+117;Fundamentos de administración;Optativas;4;6;8;30;30
+118;Redes Locales;;5;7;1;16;4
+119;Aplicaciones web;;5;7;1;16;4
+120;Seguridad Informática;;5;8;1;16;4
+121;Servicios en red;;6;8;1;16;4
+122;Planificación y Admón Redes;;5;9;1;16;4
+123;Gestión de Bases de Datos;;4;9;1;16;4
+124;Lenguaje de marcas;;3;9;1;16;4
+125;Servicios de red e internet;;7;10;1;16;4
+126;Implantación de aplicaciones web;;5;10;1;16;4
+127;Admón. Sistemas gestores BBDD;;3;10;1;16;4
+128;Seguridad y alta disponibilidad;;5;10;1;16;4
+129;Bases de datos;;5;11;1;16;4
+130;Programación;;6;11;1;16;4
+131;Lenguaje de marcas;;3;11;1;16;4
+132;Entornos de desarrollo;;2;11;1;16;4
+133;Acceso a datos;;7;12;1;16;4
+134;Programación Multimedia y disp.;;5;12;1;16;4
+135;Programación servicios procesos;;3;12;1;16;4
+136;Técnica contable;;5;21;1;18;5
+137;Operaciones Aux. Tesorería;;5;21;1;18;5
+138;Tratamiento Docum. Contable;;6;22;1;18;5
+139;Gest Docum Jurídica Empre;;2;23;1;18;5
+140;RRHH Responsabilidad Civil Corp;;2;23;1;18;5
+141;Proceso integral Actividad Com;;6;23;1;18;5
+142;Gestión RRHH;;3;24;1;18;5
+143;Gestión Financiera;;7;24;1;18;5
+144;Contabilidad y Fiscalidad;;5;24;1;18;5
+145;Simulación Empresarial;;5;24;2;18;5
+146;Gest. Docum. Jurídica Empre.;;2;25;1;18;5
+147;RRHH Responsabilidad Civil Corp;;4;25;1;18;5
+148;Proyecto intermodular de desarrollo de aplicaciones multiplataforma;;1;11;1;16;30
+149;Proceso integral Actividad Com;;6;25;1;18;5
+150;Organización de eventos empresariales;;8;26;1;18;5
+151;Protocolo empresarial;;7;26;2;18;5
+152;IPE II;;2;30;1;18;5
+153;Digitalización aplicada al sector productivo;;2;21;1;18;6
+154;Sostenibilidad aplicada al sistema productivo;;1;21;1;18;6
+155;Proyecto intermodular;;1;21;1;18;6
+156;Proyecto intermodular;;1;22;1;18;6
+157;Empresa en el Aula;;7;22;1;18;6
+158;FE;;1;21;1;18;6
+159;FE;;1;22;1;18;6
+160;Digitalización aplicada al sector productivo;;2;23;1;18;6
+161;Sostenibilidad aplicada al sistema productivo;;1;23;1;18;6
+162;Proyecto intermodular;;1;23;1;18;6
+163;Proyecto intermodular;;1;24;1;18;6
+164;FE;;1;23;1;18;6
+165;FE;;1;24;1;18;6
+166;Digitalización aplicada al sector productivo;;2;25;1;18;6
+167;Sostenibilidad aplicada al sistema productivo;;1;25;1;18;6
+168;Proyecto intermodular;;1;25;1;18;6
+169;FE;;1;25;1;18;6
+170;FE;;1;26;1;18;6
+171;BILINGÜE ;;2;30;1;18;6
+172;AULA EMPRENDEDORA;;2;30;1;18;6
+173;COORDINADOR;;2;30;1;18;6
+174;Montaje Mantenimiento Equipos;;6;7;1;16;7
+175;Aplicaciones Ofimáticas;;6;8;1;16;7
+176;Sistemas Operativos en red;;5;8;1;16;7
+177;Implantación Sistemas Operativos;;6;9;1;16;7
+178;Fundamentos del Hardware;;3;9;1;16;7
+179;Admón sistemas Operativos;;7;10;1;16;7
+180;Sistemas informáticos;;5;11;1;16;7
+181;Desarrollo de interfaces;;7;12;1;16;7
+182;Sistemas gestión empresarial;;5;12;1;16;7
+183;Proyecto intermodular de administración de sistemas informáticos en red;;1;7;1;16;8
+184;Digitalización aplicada a los sectores productivos (GS);;2;7;1;16;8
+185;Sostenibilidad aplicada al sistema productivo;;1;7;1;16;8
+186;Sistemas Operativos Monopuesto;;5;7;1;16;8
+187;Proyecto intermodular de administración de sistemas informáticos en red;;1;8;1;16;8
+188;FE;;1;7;1;16;8
+189;FE;;1;8;1;16;8
+190;Proyecto intermodular de administración de sistemas informáticos en red;;1;9;1;16;8
+191;Digitalización aplicada a los sectores productivos (GS);;2;9;1;16;8
+192;Sostenibilidad aplicada al sistema productivo;;1;9;1;16;8
+193;Proyecto intermodular de administración de sistemas informáticos en red;;1;10;1;16;8
+194;FE;;1;9;1;16;8
+195;FE;;1;10;1;16;8
+196;Sostenibilidad aplicada al sistema productivo;;1;11;1;16;8
+197;Digitalización aplicada a los sectores productivos;;2;11;1;16;8
+198;Proyecto intermodular de administración de sistemas informáticos en red;;1;12;1;16;8
+199;FE;;1;11;1;16;8
+200;FE;;1;12;1;16;8
+201;Mantenimiento Equipos;;2;30;1;16;8
+202;Web centro;;2;30;1;16;8
+203;Directiva;;33;30;1;16;8
+204;Coordinación;;2;30;1;16;8
+205;Márketing en la Act. Comercial;;5;13;1;17;9
+206;Procesos de ventas;;4;13;1;17;9
+207;Gestión de pequeño comercio;;8;14;1;17;9
+208;Venta técnica;;5;14;1;17;9
+209;GEFE;;6;15;2;17;9
+210;GACI;;6;15;2;17;9
+211;Márketing internacional;;7;16;1;17;9
+212;Negociación internacional;;5;16;1;17;9
+213;Financiación internacional;;6;16;1;17;9
+214;Medios pagos internacionales;;5;16;1;17;9
+215;Logísitica Almacenamiento;;6;17;1;17;9
+216;Gestión Adtva  Transporte y Logís;;;18;1;17;9
+217;Comercialización T y L;;9;18;2;17;9
+218;Organización Transporte viajeros;;5;18;2;17;9
+219;Organización Transporte Merca;;5;18;2;17;9
+220;Digitalización;;2;13;1;17;10
+221;Sostenibilidad;;1;13;1;17;10
+222;Proyecto;;1;13;1;17;10
+223;Proyecto;;1;14;1;17;10
+224;FE;;1;13;1;17;10
+225;FE;;1;14;1;17;10
+226;Digitalización;;2;15;1;17;10
+227;Sostenibilidad;;1;15;1;17;10
+228;Proyecto;;1;15;1;17;10
+229;Proyecto;;1;16;1;17;10
+230;FE;;1;15;1;17;10
+231;FE;;1;16;1;17;10
+232;Digitalización;;6;17;1;17;10
+233;Sostenibilidad;;1;17;1;17;10
+234;Proyecto;;1;17;1;17;10
+235;Proyecto;;1;18;1;17;10
+236;FE;;1;17;1;17;10
+237;BILINGÜE;;4;30;1;17;10
+238;Coordinación;;2;30;1;17;10
+239;Tratamiento informático de datos;;8;19;1;18;11
+240;Técnicas administrativas básicas;;6;19;1;18;11
+241;Archivo y comunicación;;4;19;1;18;11
+242;Proyecto Intermodular;;1;19;1;18;11
+243;Tutoría;;1;20;1;18;11
+244;Aplicaciones básicas ofimática;;8;20;1;18;11
+245;Atención al cliente;;3;20;1;18;11
+246;Preparación pedidos y ventas;;4;20;1;18;11
+247;Tutoría;;1;20;1;18;11
+248;Proyecto Intermodular;;1;20;1;18;11
+249;FE;;1;20;1;18;11
+250;Operaciones Adtvas. CV;;4;21;1;18;11
+251;Tratamiento informático Informa.;;7;21;1;18;11
+252;CEAC;;6;22;1;18;11
+253;Empresa y Administración;;5;22;1;18;11
+254;Operaciones Adtvas. RRHH;;6;22;1;18;11
+255;Ofimática y Proceso Información;;7;23;1;18;11
+256;Comunicación y atención Clien;;4;23;1;18;11
+257;Ofimática y Proceso Información;;7;25;1;18;11
+258;Comunicación y atención Clien;;4;25;1;18;11
+259;Gestión Avanzada a la Información;;7;26;1;18;11
+260;Gestión de Compras;;3;13;1;17;12
+261;Aplicaciones Informáticas Com.;;4;13;1;17;12
+262;Dinamización punto de venta;;5;13;1;17;12
+263;Técnicas de almacén;;6;14;1;17;12
+264;Servicios de atención comercial;;5;14;1;17;12
+265;Comercio electrónico;;6;14;1;17;12
+266;Transporte internacional Merc.;;5;15;2;17;12
+267;Logísitica Almacenamiento;;4;15;1;17;12
+268;Sistemas Información mercados;;4;16;1;17;12
+269;comercio digital internacional;;3;16;1;17;12
+270;Transporte internacional Merc;;5;17;1;17;12
+271;GACI;;4;17;1;17;12
+272;Logistica de Aprovisionamiento;;6;18;2;17;12
+273;FE;;1;18;1;17;12
+274;Iniciación Actividad Emprendedora GB;;2;30;1;17;12
+275;Digitalización Administración;;2;30;1;17;12
+276;Gestión Logística Comercial;;5;24;1;18;12
+277;IPE II;;2;28;1;19;30
+278;IPE I;;2;27;1;19;30
+279;IPE I;;2;19;1;19;30
+280;IPE II;;2;20;1;19;30
+281;IPE I;;3;21;1;19;30
+282;IPE I;;3;23;1;19;30
+283;IPE I;;3;25;1;19;30
+284;IPE I;;3;13;1;19;30
+285;IPE I;;3;15;1;19;30
+286;IPE I;;3;17;1;19;30
+287;IPE I;;3;7;1;19;30
+288;IPE Ii;;2;8;1;19;30
+289;IPE;;3;11;1;19;30
+290;IPE Ii;;2;12;1;19;30
+291;IPE;;3;9;1;19;30
+292;IPE Ii;;2;10;1;19;30
+293;COORDINACIÓN RIESGOS;;2;30;1;19;30
+294;Inglés;;2;21;1;6;30
+295;Inglés;;2;23;1;6;30
+296;Inglés;;2;25;1;6;30
+297;Inglés;;2;13;1;6;30
+298;Inglés;;2;15;1;6;30
+299;Inglés;;2;17;1;6;30
+300;Inglés Técnico;;2;7;1;6;30
+301;Inglés Técnico;;2;9;1;6;30
+302;Inglés Técnico;;2;11;1;6;30
+303;Op. Bas. Prod. Y mant. Plan. Y cc jard.;;5;27;1;20;30
+304;Trabajos de aprovechamientos forestales;;7;27;1;20;30
+305;Recolección de productos forestales;;1;27;1;20;30
+306;Operaciones básicas para el mantenimiento de jardines parques y zonas verdes;;6;27;1;20;30
+307;Tutoría;;1;27;1;20;30
+308;Operaciones básicas para el mantenimiento de jardines parques y zonas verdes;;5;28;1;20;30
+309;Repoblación e infraestructura forestal;;5;28;1;20;30
+310;Silvicultura y plagas;;5;28;1;20;30
+311;Tutoría;;1;28;1;20;30
+312;FE;;1;28;1;20;30
