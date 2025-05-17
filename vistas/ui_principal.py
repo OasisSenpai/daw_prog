@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'ui_principalLMTiwl.ui'
+## Form generated from reading UI file 'ui_principalkNcFlA.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.8.1
 ##
@@ -19,8 +19,8 @@ from PySide6.QtGui import (QAction, QBrush, QColor, QConicalGradient,
 from PySide6.QtWidgets import (QApplication, QGroupBox, QHBoxLayout, QHeaderView,
     QLabel, QLayout, QLineEdit, QMainWindow,
     QMenu, QMenuBar, QPushButton, QSizePolicy,
-    QSpacerItem, QStatusBar, QTableWidget, QTableWidgetItem,
-    QVBoxLayout, QWidget)
+    QSpacerItem, QTableWidget, QTableWidgetItem, QVBoxLayout,
+    QWidget)
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -40,14 +40,18 @@ class Ui_MainWindow(object):
         icon = QIcon()
         icon.addFile(u"recursos/logo.png", QSize(), QIcon.Mode.Normal, QIcon.State.Off)
         MainWindow.setWindowIcon(icon)
+#if QT_CONFIG(statustip)
+        MainWindow.setStatusTip(u"")
+#endif // QT_CONFIG(statustip)
         MainWindow.setStyleSheet(u"")
+        MainWindow.setDockOptions(QMainWindow.DockOption.AllowTabbedDocks|QMainWindow.DockOption.AnimatedDocks)
         self.actionSalir = QAction(MainWindow)
         self.actionSalir.setObjectName(u"actionSalir")
         self.actionSalir.setShortcutContext(Qt.ShortcutContext.WindowShortcut)
         self.actionExportar_tabla = QAction(MainWindow)
         self.actionExportar_tabla.setObjectName(u"actionExportar_tabla")
-        self.actionMaterias = QAction(MainWindow)
-        self.actionMaterias.setObjectName(u"actionMaterias")
+        self.actionMateriasVista = QAction(MainWindow)
+        self.actionMateriasVista.setObjectName(u"actionMateriasVista")
         self.actionCursos = QAction(MainWindow)
         self.actionCursos.setObjectName(u"actionCursos")
         self.actionDepartamentos = QAction(MainWindow)
@@ -56,12 +60,14 @@ class Ui_MainWindow(object):
         self.actionEspecialidades.setObjectName(u"actionEspecialidades")
         self.actionOptativas = QAction(MainWindow)
         self.actionOptativas.setObjectName(u"actionOptativas")
-        self.actionTipos_de_asignatura = QAction(MainWindow)
-        self.actionTipos_de_asignatura.setObjectName(u"actionTipos_de_asignatura")
+        self.actionTiposAsignatura = QAction(MainWindow)
+        self.actionTiposAsignatura.setObjectName(u"actionTiposAsignatura")
         self.actionTurnos = QAction(MainWindow)
         self.actionTurnos.setObjectName(u"actionTurnos")
         self.actionHorasDepartamentos = QAction(MainWindow)
         self.actionHorasDepartamentos.setObjectName(u"actionHorasDepartamentos")
+        self.actionMaterias = QAction(MainWindow)
+        self.actionMaterias.setObjectName(u"actionMaterias")
         self.centralwidget = QWidget(MainWindow)
         self.centralwidget.setObjectName(u"centralwidget")
         sizePolicy.setHeightForWidth(self.centralwidget.sizePolicy().hasHeightForWidth())
@@ -70,7 +76,7 @@ class Ui_MainWindow(object):
         self.centralwidget.setStyleSheet(u"background-color: #5080ff;")
         self.horizontalLayoutWidget = QWidget(self.centralwidget)
         self.horizontalLayoutWidget.setObjectName(u"horizontalLayoutWidget")
-        self.horizontalLayoutWidget.setGeometry(QRect(0, 0, 1281, 681))
+        self.horizontalLayoutWidget.setGeometry(QRect(0, 0, 1281, 701))
         self.divPrincipal = QHBoxLayout(self.horizontalLayoutWidget)
         self.divPrincipal.setObjectName(u"divPrincipal")
         self.divPrincipal.setSizeConstraint(QLayout.SizeConstraint.SetDefaultConstraint)
@@ -88,9 +94,15 @@ class Ui_MainWindow(object):
 
         self.groupBoxAcciones = QGroupBox(self.horizontalLayoutWidget)
         self.groupBoxAcciones.setObjectName(u"groupBoxAcciones")
+        font = QFont()
+        font.setFamilies([u"Consolas"])
+        font.setBold(True)
+        self.groupBoxAcciones.setFont(font)
         self.groupBoxAcciones.setStyleSheet(u"font-size: 15px;\n"
 "background-color: #7aa8eb;\n"
 "border-radius: 20px;")
+        self.groupBoxAcciones.setFlat(False)
+        self.groupBoxAcciones.setCheckable(False)
         self.layoutWidget = QWidget(self.groupBoxAcciones)
         self.layoutWidget.setObjectName(u"layoutWidget")
         self.layoutWidget.setGeometry(QRect(40, 20, 171, 291))
@@ -104,9 +116,6 @@ class Ui_MainWindow(object):
         sizePolicy1.setVerticalStretch(0)
         sizePolicy1.setHeightForWidth(self.botonAniadirCampo.sizePolicy().hasHeightForWidth())
         self.botonAniadirCampo.setSizePolicy(sizePolicy1)
-        font = QFont()
-        font.setFamilies([u"Consolas"])
-        font.setBold(True)
         self.botonAniadirCampo.setFont(font)
         self.botonAniadirCampo.setStyleSheet(u"#botonAniadirCampo {\n"
 "	background-color: #8c6aff;\n"
@@ -179,6 +188,12 @@ class Ui_MainWindow(object):
 
         self.entryBuscar = QLineEdit(self.horizontalLayoutWidget)
         self.entryBuscar.setObjectName(u"entryBuscar")
+        font2 = QFont()
+        font2.setFamilies([u"Consolas"])
+        font2.setBold(True)
+        font2.setItalic(False)
+        font2.setUnderline(False)
+        self.entryBuscar.setFont(font2)
         self.entryBuscar.setStyleSheet(u"#entryBuscar {\n"
 "	background-color: white;\n"
 "	border-radius: 20px;\n"
@@ -280,9 +295,6 @@ class Ui_MainWindow(object):
         self.menuTablas = QMenu(self.menubar)
         self.menuTablas.setObjectName(u"menuTablas")
         MainWindow.setMenuBar(self.menubar)
-        self.statusbar = QStatusBar(MainWindow)
-        self.statusbar.setObjectName(u"statusbar")
-        MainWindow.setStatusBar(self.statusbar)
 
         self.menubar.addAction(self.menuOpciones.menuAction())
         self.menubar.addAction(self.menuTablas.menuAction())
@@ -294,8 +306,9 @@ class Ui_MainWindow(object):
         self.menuTablas.addAction(self.actionEspecialidades)
         self.menuTablas.addAction(self.actionHorasDepartamentos)
         self.menuTablas.addAction(self.actionMaterias)
+        self.menuTablas.addAction(self.actionMateriasVista)
         self.menuTablas.addAction(self.actionOptativas)
-        self.menuTablas.addAction(self.actionTipos_de_asignatura)
+        self.menuTablas.addAction(self.actionTiposAsignatura)
         self.menuTablas.addAction(self.actionTurnos)
 
         self.retranslateUi(MainWindow)
@@ -308,14 +321,15 @@ class Ui_MainWindow(object):
         MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"App", None))
         self.actionSalir.setText(QCoreApplication.translate("MainWindow", u"Salir", None))
         self.actionExportar_tabla.setText(QCoreApplication.translate("MainWindow", u"Exportar tabla (.csv)", None))
-        self.actionMaterias.setText(QCoreApplication.translate("MainWindow", u"Materias", None))
+        self.actionMateriasVista.setText(QCoreApplication.translate("MainWindow", u"Materias (vista)", None))
         self.actionCursos.setText(QCoreApplication.translate("MainWindow", u"Cursos", None))
         self.actionDepartamentos.setText(QCoreApplication.translate("MainWindow", u"Departamentos", None))
         self.actionEspecialidades.setText(QCoreApplication.translate("MainWindow", u"Especialidades", None))
         self.actionOptativas.setText(QCoreApplication.translate("MainWindow", u"Optativas", None))
-        self.actionTipos_de_asignatura.setText(QCoreApplication.translate("MainWindow", u"Tipos de asignatura", None))
+        self.actionTiposAsignatura.setText(QCoreApplication.translate("MainWindow", u"Tipos de asignatura", None))
         self.actionTurnos.setText(QCoreApplication.translate("MainWindow", u"Turnos", None))
-        self.actionHorasDepartamentos.setText(QCoreApplication.translate("MainWindow", u"Horas departementos", None))
+        self.actionHorasDepartamentos.setText(QCoreApplication.translate("MainWindow", u"Horas departementos (vista)", None))
+        self.actionMaterias.setText(QCoreApplication.translate("MainWindow", u"Materias", None))
         self.logo.setText("")
         self.groupBoxAcciones.setTitle(QCoreApplication.translate("MainWindow", u"Acciones", None))
         self.botonAniadirCampo.setText(QCoreApplication.translate("MainWindow", u"A\u00f1adir fila", None))

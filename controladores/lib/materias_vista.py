@@ -3,18 +3,12 @@ from PySide6.QtWidgets import QTableWidgetItem
 import mysql.connector
 
 
-class Materias:
-    @staticmethod
-    def actualizar_datos(cursor, datosTabla):
-        # Actualizar o insertar fila.
-        pass
-
-
+class MateriasVista:
     @staticmethod
     def leer_datos_tabla(conexion):
         materias = []
         cursor = conexion.cursor()
-        sql_lectura_datos: str = 'SELECT * FROM materias'
+        sql_lectura_datos: str = 'SELECT * FROM vista_materias_cursos'
         cursor.execute(sql_lectura_datos)
         for registro in cursor.fetchall():
             materias.append(registro)
@@ -27,7 +21,7 @@ class Materias:
     def mostrar_datos(materias, ui, vistaTabla):
         vistaTabla.setRowCount(0)
         vistaTabla.setColumnCount(9)
-        vistaTabla.setHorizontalHeaderLabels(["id", "nombre", "id_curso", "grupo", "horas_semanales", "id_tipo", "id_departamento", "id_especialidad", "id_optativa"])
+        vistaTabla.setHorizontalHeaderLabels(["id", "materia", "grupo", "horas_semanales", "curso", "tipo", "departamento", "especialidad", "horas_totales"])
 
         for materia in materias:
             fila = vistaTabla.rowCount()
@@ -43,5 +37,5 @@ class Materias:
             vistaTabla.setItem(fila, 8, QTableWidgetItem(str(materia[8])))
 
         vistaTabla.resizeColumnsToContents()
-        ui.nombreTabla.setText('Materias')
-        return 'materias'
+        ui.nombreTabla.setText('Materias (vista)')
+        return 'materiasVista'

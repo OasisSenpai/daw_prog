@@ -8,7 +8,7 @@ from mysql.connector.connection import MySQLConnection
 
 
 class ControladorLogin(QMainWindow):
-    def __init__(self):
+    def __init__(self) -> None:
         super().__init__()
         self.conexion = None
 
@@ -18,12 +18,12 @@ class ControladorLogin(QMainWindow):
         self.ui.botonConectar.clicked.connect(self.conectar_BBDD)
 
 
-    def conectar_BBDD(self):
-        usuario = self.ui.inputUsuario.text()
-        password = self.ui.inputPassword.text()
-        direccion = self.ui.inputDireccion.text()
-        bbdd = self.ui.inputBBDD.text()
-        self.conexion = self.conexion_base_datos(usuario, password, direccion, bbdd)
+    def conectar_BBDD(self) -> None:
+        usuario: str = str(self.ui.inputUsuario.text())
+        password: str = str(self.ui.inputPassword.text())
+        direccion: str = str(self.ui.inputDireccion.text())
+        bbdd: str = str(self.ui.inputBBDD.text())
+        self.conexion: MySQLConnection = self.conexion_base_datos(usuario, password, direccion, bbdd)
 
         self.ventanaPrincipal = ControladorPrincipal(self.conexion)
         self.ventanaPrincipal.show()
@@ -31,17 +31,17 @@ class ControladorLogin(QMainWindow):
         self.close()
 
     
-    def conexion_base_datos(self, usuario, contrasenia, direccion, bbdd):
-        conexion: MySQLConnection = mysql.connector.connect(
-            user=str(usuario),  
-            password=str(contrasenia),
-            host=str(direccion),  
-            database=str(bbdd)  
-        )
+    def conexion_base_datos(self, usuario: str, contrasenia: str, direccion: str, bbdd: str) -> MySQLConnection:
         # conexion: MySQLConnection = mysql.connector.connect(
-        #     user='root',
-        #     password='',
-        #     host='localhost',
-        #     database='daw_fct_departamentos'
+        #     user=usuario,  
+        #     password=contrasenia,
+        #     host=direccion,  
+        #     database=bbdd  
         # )
+        conexion: MySQLConnection = mysql.connector.connect(
+            user='root',
+            password='',
+            host='localhost',
+            database='daw_prog'
+        )
         return conexion

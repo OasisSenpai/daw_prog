@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'ui_loginPpkhQP.ui'
+## Form generated from reading UI file 'ui_loginwcSKXJ.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.8.1
 ##
@@ -29,6 +29,9 @@ class Ui_loginVentana(object):
         icon = QIcon()
         icon.addFile(u"recursos/logo.png", QSize(), QIcon.Mode.Active, QIcon.State.On)
         loginVentana.setWindowIcon(icon)
+        loginVentana.setStyleSheet(u"#loginVentana {\n"
+"	background-color: #5080ff;\n"
+"}")
         self.verticalLayoutWidget = QWidget(loginVentana)
         self.verticalLayoutWidget.setObjectName(u"verticalLayoutWidget")
         self.verticalLayoutWidget.setGeometry(QRect(9, 8, 351, 251))
@@ -61,6 +64,7 @@ class Ui_loginVentana(object):
 
         self.inputUsuario = QLineEdit(self.verticalLayoutWidget)
         self.inputUsuario.setObjectName(u"inputUsuario")
+        self.inputUsuario.setStyleSheet(u"")
 
         self.usuarioLayout.addWidget(self.inputUsuario)
 
@@ -134,6 +138,7 @@ class Ui_loginVentana(object):
 
         self.botonConectar = QPushButton(self.verticalLayoutWidget)
         self.botonConectar.setObjectName(u"botonConectar")
+        self.botonConectar.setStyleSheet(u"")
 
         self.horizontalLayout.addWidget(self.botonConectar)
 
