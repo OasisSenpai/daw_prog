@@ -30,6 +30,11 @@
     <activeon>../../recursos/logo.png</activeon>
    </iconset>
   </property>
+  <property name="styleSheet">
+   <string notr="true">#loginVentana {
+	background-color: #5080ff;
+}</string>
+  </property>
   <widget class="QWidget" name="verticalLayoutWidget">
    <property name="geometry">
     <rect>
@@ -94,6 +99,9 @@
       </item>
       <item>
        <widget class="QLineEdit" name="inputUsuario">
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
         <property name="text">
          <string/>
         </property>
@@ -202,6 +210,9 @@
       </item>
       <item>
        <widget class="QPushButton" name="botonConectar">
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
         <property name="text">
          <string>Conectar</string>
         </property>

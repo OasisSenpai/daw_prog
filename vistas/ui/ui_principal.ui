@@ -44,8 +44,14 @@
    <iconset>
     <normaloff>../../recursos/logo.png</normaloff>../../recursos/logo.png</iconset>
   </property>
+  <property name="statusTip">
+   <string notr="true"/>
+  </property>
   <property name="styleSheet">
    <string notr="true"/>
+  </property>
+  <property name="dockOptions">
+   <set>QMainWindow::DockOption::AllowTabbedDocks|QMainWindow::DockOption::AnimatedDocks</set>
   </property>
   <widget class="QWidget" name="centralwidget">
    <property name="sizePolicy">
@@ -66,7 +72,7 @@
       <x>0</x>
       <y>0</y>
       <width>1281</width>
-      <height>681</height>
+      <height>701</height>
      </rect>
     </property>
     <layout class="QHBoxLayout" name="divPrincipal" stretch="1,4">
@@ -108,6 +114,13 @@
        </item>
        <item>
         <widget class="QGroupBox" name="groupBoxAcciones">
+         <property name="font">
+          <font>
+           <family>Consolas</family>
+           <pointsize>-1</pointsize>
+           <bold>true</bold>
+          </font>
+         </property>
          <property name="styleSheet">
           <string notr="true">font-size: 15px;
 background-color: #7aa8eb;
@@ -115,6 +128,12 @@ border-radius: 20px;</string>
          </property>
          <property name="title">
           <string>Acciones</string>
+         </property>
+         <property name="flat">
+          <bool>false</bool>
+         </property>
+         <property name="checkable">
+          <bool>false</bool>
          </property>
          <widget class="QWidget" name="layoutWidget">
           <property name="geometry">
@@ -242,6 +261,15 @@ border-radius: 20px;</string>
          </item>
          <item>
           <widget class="QLineEdit" name="entryBuscar">
+           <property name="font">
+            <font>
+             <family>Consolas</family>
+             <pointsize>-1</pointsize>
+             <italic>false</italic>
+             <bold>true</bold>
+             <underline>false</underline>
+            </font>
+           </property>
            <property name="statusTip">
             <string/>
            </property>
@@ -379,14 +407,14 @@ QHeaderView::section:horizontal:last {
     <addaction name="actionEspecialidades"/>
     <addaction name="actionHorasDepartamentos"/>
     <addaction name="actionMaterias"/>
+    <addaction name="actionMateriasVista"/>
     <addaction name="actionOptativas"/>
-    <addaction name="actionTipos_de_asignatura"/>
+    <addaction name="actionTiposAsignatura"/>
     <addaction name="actionTurnos"/>
    </widget>
    <addaction name="menuOpciones"/>
    <addaction name="menuTablas"/>
   </widget>
-  <widget class="QStatusBar" name="statusbar"/>
   <action name="actionSalir">
    <property name="text">
     <string>Salir</string>
@@ -400,9 +428,9 @@ QHeaderView::section:horizontal:last {
     <string>Exportar tabla (.csv)</string>
    </property>
   </action>
-  <action name="actionMaterias">
+  <action name="actionMateriasVista">
    <property name="text">
-    <string>Materias</string>
+    <string>Materias (vista)</string>
    </property>
   </action>
   <action name="actionCursos">
@@ -425,7 +453,7 @@ QHeaderView::section:horizontal:last {
     <string>Optativas</string>
    </property>
   </action>
-  <action name="actionTipos_de_asignatura">
+  <action name="actionTiposAsignatura">
    <property name="text">
     <string>Tipos de asignatura</string>
    </property>
@@ -437,7 +465,12 @@ QHeaderView::section:horizontal:last {
   </action>
   <action name="actionHorasDepartamentos">
    <property name="text">
-    <string>Horas departementos</string>
+    <string>Horas departementos (vista)</string>
+   </property>
+  </action>
+  <action name="actionMaterias">
+   <property name="text">
+    <string>Materias</string>
    </property>
   </action>
  </widget>

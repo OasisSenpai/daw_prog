@@ -14,7 +14,7 @@ class Materias:
     def leer_datos_tabla(conexion):
         materias = []
         cursor = conexion.cursor()
-        sql_lectura_datos: str = 'SELECT * FROM vista_materias_cursos'
+        sql_lectura_datos: str = 'SELECT * FROM materias'
         cursor.execute(sql_lectura_datos)
         for registro in cursor.fetchall():
             materias.append(registro)

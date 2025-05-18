@@ -5,12 +5,6 @@ import mysql.connector
 
 class HorasDepartamentos:
     @staticmethod
-    def actualizar_datos(cursor, datosTabla):
-        # Actualizar o insertar fila.
-        pass
-
-
-    @staticmethod
     def leer_datos_tabla(conexion):
         materias = []
         cursor = conexion.cursor()
