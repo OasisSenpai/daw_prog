@@ -1,0 +1,12 @@
+1;Normal;N;0;1
+2;Plurilingüe;PL;1;1
+3;Optativa;OP;0;0.5
+4;Pluri/Opta;PO;1;0.5
+5;Diversificación;DV;-2;1
+6;Especial;ES;-3;1
+7;Bach. Opt. 1;B1;1;0
+8;Bach. Opt. 2;B2;2;0
+9;Bach. Opt. 3;B3;3;0
+10;Bach. Opt. 4;B4;4;0
+11;Bach. Opt. 5;B5;5;0
+12;PluriDiver;PV;2;1

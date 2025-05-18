@@ -1,0 +1,10 @@
+1;No ofertada
+2;Plurilingüe
+3;Diver y Grupo 3 (4 4º ESO)
+4;Diver
+5;Grupo 10 y Plur
+6;Grupo 10 y Diver
+7;Grupo 6
+8;Grupo 7
+9;Grupo 8
+10;Grupo 9
