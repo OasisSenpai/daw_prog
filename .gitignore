@@ -1,6 +1,9 @@
 .idea/
 .vscode/
+tests-borrar/
 tests/
+
+__pycache__/
 controladores/__pycache__/
 controladores/lib/__pycache__/
 modelos/

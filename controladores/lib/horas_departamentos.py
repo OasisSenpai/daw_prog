@@ -65,4 +65,4 @@ class HorasDepartamentos:
 
         vistaTabla.resizeColumnsToContents()
         ui.nombreTabla.setText('Horas departamentos')
-        return 'horas_departamentos'
+        return 'horasDepartamentos'

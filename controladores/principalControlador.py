@@ -25,7 +25,7 @@ class ControladorPrincipal(QMainWindow):
         self.cursos: List[(str)] = []
         self.departamentos: List[(str)] = []
         self.especialidades: List[(str)] = []
-        self.horas_departamentos: List[(str)] = []
+        self.horasDepartamentos: List[(str)] = []
         self.materias: List[(str)] = []
         self.materiasVista: List[(str)] = []
         self.optativas: List[(str)] = []
@@ -101,8 +101,8 @@ class ControladorPrincipal(QMainWindow):
                 Departamentos.mostrar_datos([departamento for departamento in self.departamentos if texto.lower() in departamento[2].lower()], self.ui, self.vistaTabla)
             case 'especialidades':
                 Especialidades.mostrar_datos([especialidad for especialidad in self.especialidades if texto.lower() in especialidad[1].lower()], self.ui, self.vistaTabla)
-            case 'horas_departamentos':
-                HorasDepartamentos.mostrar_datos([horas_departamento for horas_departamento in self.horas_departamentos if texto.lower() in horas_departamento[0].lower()], self.ui, self.vistaTabla)
+            case 'horasDepartamentos':
+                HorasDepartamentos.mostrar_datos([horas_departamento for horas_departamento in self.horasDepartamentos if texto.lower() in horas_departamento[0].lower()], self.ui, self.vistaTabla)
             case 'materias':
                 Materias.mostrar_datos([materia for materia in self.materias if texto.lower() in materia[1].lower()], self.ui, self.vistaTabla)
             case 'materiasVista':
@@ -167,8 +167,8 @@ class ControladorPrincipal(QMainWindow):
 
 
     def mostrar_horas_departementos(self) -> None:
-        self.horas_departamentos = HorasDepartamentos.leer_datos_tabla(self.conexion)
-        self.tablaActual = HorasDepartamentos.mostrar_datos(self.horas_departamentos, self.ui, self.vistaTabla, self.conexion)
+        self.horasDepartamentos = HorasDepartamentos.leer_datos_tabla(self.conexion)
+        self.tablaActual = HorasDepartamentos.mostrar_datos(self.horasDepartamentos, self.ui, self.vistaTabla, self.conexion)
 
 
     def mostrar_materias(self) -> None:
