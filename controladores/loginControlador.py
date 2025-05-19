@@ -2,8 +2,10 @@ from PySide6.QtWidgets import QMainWindow, QWidget, QTableWidgetItem
 
 from controladores.principalControlador import ControladorPrincipal
 from vistas.ui_login import Ui_loginVentana
+from vistas.ui_error import Ui_Form
 
 import mysql.connector
+from mysql.connector import errorcode
 from mysql.connector.connection import MySQLConnection
 
 
@@ -32,16 +34,23 @@ class ControladorLogin(QMainWindow):
 
     
     def conexion_base_datos(self, usuario: str, contrasenia: str, direccion: str, bbdd: str) -> MySQLConnection:
-        # conexion: MySQLConnection = mysql.connector.connect(
-        #     user=usuario,  
-        #     password=contrasenia,
-        #     host=direccion,  
-        #     database=bbdd  
-        # )
-        conexion: MySQLConnection = mysql.connector.connect(
-            user='root',
-            password='',
-            host='localhost',
-            database='daw_prog'
-        )
-        return conexion
+        try:   
+            # conexion: MySQLConnection = mysql.connector.connect(
+            #     user=usuario,  
+            #     password=contrasenia,
+            #     host=direccion,  
+            #     database=bbdd  
+            # )
+            conexion: MySQLConnection = mysql.connector.connect(
+                user='root',
+                password='',
+                host='localhost',
+                database='daw_prog'
+            )
+            return conexion
+        except mysql.connector.Error as err:
+            if err.errno == errorcode.ER_ACCESS_DENIED_ERROR:
+                return 'Error de conexión con la base de datos. Inténtelo de nuevo.'
+            elif err.errno == errorcode.ER_BAD_DB_ERROR:
+                return f'No existe la base de datos "{BaseDatos.DATABASE}".'
+            return err

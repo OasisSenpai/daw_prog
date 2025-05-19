@@ -1,7 +1,5 @@
 .idea/
 .vscode/
-tests-borrar/
-tests/
 
 __pycache__/
 controladores/__pycache__/
