@@ -1,0 +1,58 @@
+<mxfile host="Electron" modified="2025-05-17T08:47:27.050Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.0.4 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="uRs7NrYyDpWgP2Nm-2P3" version="24.0.4" type="device">
+  <diagram name="Página-1" id="MXuLmfZFsiAz2Yh5gCSj">
+    <mxGraphModel dx="1420" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1147" pageHeight="1329" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_pQKcWetBhr46IarsBcE-1" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="380" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_pQKcWetBhr46IarsBcE-3" value="Login" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="320" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_pQKcWetBhr46IarsBcE-5" value="Filtrar dato" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="390" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_pQKcWetBhr46IarsBcE-6" value="LogOut" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="460" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_pQKcWetBhr46IarsBcE-8" value="Extend" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="_pQKcWetBhr46IarsBcE-9" target="_pQKcWetBhr46IarsBcE-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="420" as="sourcePoint" />
+            <mxPoint x="600" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_pQKcWetBhr46IarsBcE-9" value="Ver tabla" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="390" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_pQKcWetBhr46IarsBcE-10" value="Modificar tabla" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="390" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_pQKcWetBhr46IarsBcE-11" value="Extend" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="_pQKcWetBhr46IarsBcE-10" target="_pQKcWetBhr46IarsBcE-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="810" y="419.5" as="sourcePoint" />
+            <mxPoint x="730" y="419.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_pQKcWetBhr46IarsBcE-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_pQKcWetBhr46IarsBcE-1" target="_pQKcWetBhr46IarsBcE-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="450" as="sourcePoint" />
+            <mxPoint x="600" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_pQKcWetBhr46IarsBcE-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_pQKcWetBhr46IarsBcE-1" target="_pQKcWetBhr46IarsBcE-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="375" y="410" as="sourcePoint" />
+            <mxPoint x="450" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_pQKcWetBhr46IarsBcE-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_pQKcWetBhr46IarsBcE-1" target="_pQKcWetBhr46IarsBcE-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="375" y="410" as="sourcePoint" />
+            <mxPoint x="450" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
