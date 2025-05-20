@@ -50,10 +50,10 @@ class Cursos:
         for curso in cursos:
             fila = vistaTabla.rowCount()
             vistaTabla.insertRow(fila)
-            vistaTabla.setItem(fila, 0, QTableWidgetItem(str(curso[0])))
-            vistaTabla.setItem(fila, 1, QTableWidgetItem(str(curso[1])))
-            vistaTabla.setItem(fila, 2, QTableWidgetItem(str(curso[2])))
-            vistaTabla.setItem(fila, 3, QTableWidgetItem(str(curso[3])))
+            vistaTabla.setItem(fila, 0, QTableWidgetItem(str(curso[0]).replace('\n', '')))
+            vistaTabla.setItem(fila, 1, QTableWidgetItem(str(curso[1]).replace('\n', '')))
+            vistaTabla.setItem(fila, 2, QTableWidgetItem(str(curso[2]).replace('\n', '')))
+            vistaTabla.setItem(fila, 3, QTableWidgetItem(str(curso[3]).replace('\n', '')))
 
         vistaTabla.resizeColumnsToContents()
         ui.nombreTabla.setText('Cursos')

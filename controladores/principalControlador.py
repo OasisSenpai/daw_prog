@@ -1,4 +1,5 @@
 from PySide6.QtWidgets import QMainWindow, QWidget, QTableWidgetItem
+from controladores.errorControlador import ControladorError
 from vistas.ui_principal import Ui_MainWindow
 
 import mysql.connector
@@ -152,45 +153,81 @@ class ControladorPrincipal(QMainWindow):
 
 
     def mostrar_cursos(self) -> None:
-        self.cursos = Cursos.leer_datos_tabla(self.conexion)
-        self.tablaActual = Cursos.mostrar_datos(self.cursos, self.ui, self.vistaTabla)
+        try:
+            self.cursos = Cursos.leer_datos_tabla(self.conexion)
+            self.tablaActual = Cursos.mostrar_datos(self.cursos, self.ui, self.vistaTabla)
+        except:
+            error: str = 'No se ha podido mostrar la tabla de cursos.'
+            self.ventanaError = ControladorError(error)
 
 
     def mostrar_departamentos(self) -> None:
-        self.departamentos = Departamentos.leer_datos_tabla(self.conexion)
-        self.tablaActual = Departamentos.mostrar_datos(self.departamentos, self.ui, self.vistaTabla)
+        try:
+            self.departamentos = Departamentos.leer_datos_tabla(self.conexion)
+            self.tablaActual = Departamentos.mostrar_datos(self.departamentos, self.ui, self.vistaTabla)
+        except:
+            error: str = 'No se ha podido mostrar la tabla de departamentos.'
+            self.ventanaError = ControladorError(error)
 
 
     def mostrar_especialidades(self) -> None:
-        self.especialidades = Especialidades.leer_datos_tabla(self.conexion)
-        self.tablaActual = Especialidades.mostrar_datos(self.especialidades, self.ui, self.vistaTabla)
+        try:
+            self.especialidades = Especialidades.leer_datos_tabla(self.conexion)
+            self.tablaActual = Especialidades.mostrar_datos(self.especialidades, self.ui, self.vistaTabla)
+        except:
+            error: str = 'No se ha podido mostrar la tabla de especialidades.'
+            self.ventanaError = ControladorError(error)
 
 
     def mostrar_horas_departementos(self) -> None:
-        self.horasDepartamentos = HorasDepartamentos.leer_datos_tabla(self.conexion)
-        self.tablaActual = HorasDepartamentos.mostrar_datos(self.horasDepartamentos, self.ui, self.vistaTabla, self.conexion)
+        try:
+            self.horasDepartamentos = HorasDepartamentos.leer_datos_tabla(self.conexion)
+            self.tablaActual = HorasDepartamentos.mostrar_datos(self.horasDepartamentos, self.ui, self.vistaTabla, self.conexion)
+        except:
+            error: str = 'No se ha podido mostrar la vista de horas_departamentos.'
+            self.ventanaError = ControladorError(error)
 
 
     def mostrar_materias(self) -> None:
-        self.materias = Materias.leer_datos_tabla(self.conexion)
-        self.tablaActual = Materias.mostrar_datos(self.materias, self.ui, self.vistaTabla)
+        try:
+            self.materias = Materias.leer_datos_tabla(self.conexion)
+            self.tablaActual = Materias.mostrar_datos(self.materias, self.ui, self.vistaTabla)
+        except:
+            error: str = 'No se ha podido mostrar la tabla de materias.'
+            self.ventanaError = ControladorError(error)
 
 
     def mostrar_materias_vista(self) -> None:
-        self.materiasVista = MateriasVista.leer_datos_tabla(self.conexion)
-        self.tablaActual = MateriasVista.mostrar_datos(self.materiasVista, self.ui, self.vistaTabla)
+        try:
+            self.materiasVista = MateriasVista.leer_datos_tabla(self.conexion)
+            self.tablaActual = MateriasVista.mostrar_datos(self.materiasVista, self.ui, self.vistaTabla)
+        except:
+            error: str = 'No se ha podido mostrar la vista de materias.'
+            self.ventanaError = ControladorError(error)
 
 
     def mostrar_optativas(self) -> None:
-        self.optativas = Optativas.leer_datos_tabla(self.conexion)
-        self.tablaActual = Optativas.mostrar_datos(self.optativas, self.ui, self.vistaTabla)
+        try:
+            self.optativas = Optativas.leer_datos_tabla(self.conexion)
+            self.tablaActual = Optativas.mostrar_datos(self.optativas, self.ui, self.vistaTabla)
+        except:
+            error: str = 'No se ha podido mostrar la tabla de optativas.'
+            self.ventanaError = ControladorError(error)
 
 
     def mostrar_tipos(self) -> None:
-        self.tipos = Tipos.leer_datos_tabla(self.conexion)
-        self.tablaActual = Tipos.mostrar_datos(self.tipos, self.ui, self.vistaTabla)
+        try:
+            self.tipos = Tipos.leer_datos_tabla(self.conexion)
+            self.tablaActual = Tipos.mostrar_datos(self.tipos, self.ui, self.vistaTabla)
+        except:
+            error: str = 'No se ha podido mostrar la tabla de tipos.'
+            self.ventanaError = ControladorError(error)
 
 
     def mostrar_turnos(self) -> None:
-        self.turnos = Turnos.leer_datos_tabla(self.conexion)
-        self.tablaActual = Turnos.mostrar_datos(self.turnos, self.ui, self.vistaTabla)
+        try:
+            self.turnos = Turnos.leer_datos_tabla(self.conexion)
+            self.tablaActual = Turnos.mostrar_datos(self.turnos, self.ui, self.vistaTabla)
+        except:
+            error: str = 'No se ha podido mostrar la tabla de turnos.'
+            self.ventanaError = ControladorError(error)

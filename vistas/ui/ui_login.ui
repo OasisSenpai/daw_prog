@@ -160,7 +160,7 @@
       <item>
        <widget class="QLineEdit" name="inputDireccion">
         <property name="placeholderText">
-         <string>Ej.: localhost:8080</string>
+         <string>Ej.: localhost</string>
         </property>
        </widget>
       </item>

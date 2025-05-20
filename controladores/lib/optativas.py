@@ -50,8 +50,8 @@ class Optativas:
         for departamento in optativas:
             fila = vistaTabla.rowCount()
             vistaTabla.insertRow(fila)
-            vistaTabla.setItem(fila, 0, QTableWidgetItem(str(departamento[0])))
-            vistaTabla.setItem(fila, 1, QTableWidgetItem(str(departamento[1])))
+            vistaTabla.setItem(fila, 0, QTableWidgetItem(str(departamento[0]).replace('\n', '')))
+            vistaTabla.setItem(fila, 1, QTableWidgetItem(str(departamento[1]).replace('\n', '')))
 
         vistaTabla.resizeColumnsToContents()
         ui.nombreTabla.setText('Optativas')

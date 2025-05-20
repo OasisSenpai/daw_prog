@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'ui_loginwcSKXJ.ui'
+## Form generated from reading UI file 'ui_loginNfhSMx.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.8.1
 ##
@@ -167,7 +167,7 @@ class Ui_loginVentana(object):
         self.textoPassword.setText(QCoreApplication.translate("loginVentana", u"Contrase\u00f1a", None))
         self.inputPassword.setPlaceholderText(QCoreApplication.translate("loginVentana", u"Introduce la contrase\u00f1a", None))
         self.textoDireccion.setText(QCoreApplication.translate("loginVentana", u"Direcci\u00f3n BBDD", None))
-        self.inputDireccion.setPlaceholderText(QCoreApplication.translate("loginVentana", u"Ej.: localhost:8080", None))
+        self.inputDireccion.setPlaceholderText(QCoreApplication.translate("loginVentana", u"Ej.: localhost", None))
         self.textoBBDD.setText(QCoreApplication.translate("loginVentana", u"BBDD", None))
         self.inputBBDD.setPlaceholderText(QCoreApplication.translate("loginVentana", u"Introduce el nombre de la BBDD", None))
         self.botonConectar.setText(QCoreApplication.translate("loginVentana", u"Conectar", None))

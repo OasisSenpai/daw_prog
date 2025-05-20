@@ -50,11 +50,11 @@ class Tipos:
         for departamento in tipo_asignatura:
             fila = vistaTabla.rowCount()
             vistaTabla.insertRow(fila)
-            vistaTabla.setItem(fila, 0, QTableWidgetItem(str(departamento[0])))
-            vistaTabla.setItem(fila, 1, QTableWidgetItem(str(departamento[1])))
-            vistaTabla.setItem(fila, 2, QTableWidgetItem(str(departamento[2])))
-            vistaTabla.setItem(fila, 3, QTableWidgetItem(str(departamento[3])))
-            vistaTabla.setItem(fila, 4, QTableWidgetItem(str(departamento[4])))
+            vistaTabla.setItem(fila, 0, QTableWidgetItem(str(departamento[0]).replace('\n', '')))
+            vistaTabla.setItem(fila, 1, QTableWidgetItem(str(departamento[1]).replace('\n', '')))
+            vistaTabla.setItem(fila, 2, QTableWidgetItem(str(departamento[2]).replace('\n', '')))
+            vistaTabla.setItem(fila, 3, QTableWidgetItem(str(departamento[3]).replace('\n', '')))
+            vistaTabla.setItem(fila, 4, QTableWidgetItem(str(departamento[4]).replace('\n', '')))
 
         vistaTabla.resizeColumnsToContents()
         ui.nombreTabla.setText('Tipos de asignatura')

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'ui_errorlBcjBT.ui'
+## Form generated from reading UI file 'ui_errorRQMxSq.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.8.1
 ##
@@ -18,16 +18,19 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
 from PySide6.QtWidgets import (QApplication, QHBoxLayout, QLabel, QSizePolicy,
     QWidget)
 
-class Ui_Form(object):
-    def setupUi(self, Form):
-        if not Form.objectName():
-            Form.setObjectName(u"Form")
-        Form.resize(320, 110)
-        Form.setMinimumSize(QSize(320, 110))
-        Form.setMaximumSize(QSize(320, 110))
+class Ui_errorVentana(object):
+    def setupUi(self, errorVentana):
+        if not errorVentana.objectName():
+            errorVentana.setObjectName(u"errorVentana")
+        errorVentana.resize(320, 110)
+        errorVentana.setMinimumSize(QSize(320, 110))
+        errorVentana.setMaximumSize(QSize(320, 110))
         icon = QIcon(QIcon.fromTheme(QIcon.ThemeIcon.DialogWarning))
-        Form.setWindowIcon(icon)
-        self.horizontalLayoutWidget = QWidget(Form)
+        errorVentana.setWindowIcon(icon)
+        errorVentana.setStyleSheet(u"#errorVentana {\n"
+"	background-color: #5080ff;\n"
+"}")
+        self.horizontalLayoutWidget = QWidget(errorVentana)
         self.horizontalLayoutWidget.setObjectName(u"horizontalLayoutWidget")
         self.horizontalLayoutWidget.setGeometry(QRect(-1, -1, 321, 111))
         self.horizontalLayout = QHBoxLayout(self.horizontalLayoutWidget)
@@ -40,7 +43,7 @@ class Ui_Form(object):
         self.icono.setStyleSheet(u"#icono {\n"
 "	height: 50px;\n"
 "}")
-        self.icono.setPixmap(QPixmap(u"../../recursos/dialog_warning.png"))
+        self.icono.setPixmap(QPixmap(u"recursos/dialog_warning.png"))
         self.icono.setScaledContents(False)
         self.icono.setAlignment(Qt.AlignmentFlag.AlignCenter)
 
@@ -48,20 +51,22 @@ class Ui_Form(object):
 
         self.textoError = QLabel(self.horizontalLayoutWidget)
         self.textoError.setObjectName(u"textoError")
+        self.textoError.setAutoFillBackground(False)
+        self.textoError.setWordWrap(True)
 
         self.horizontalLayout.addWidget(self.textoError)
 
         self.horizontalLayout.setStretch(0, 1)
         self.horizontalLayout.setStretch(1, 2)
 
-        self.retranslateUi(Form)
+        self.retranslateUi(errorVentana)
 
-        QMetaObject.connectSlotsByName(Form)
+        QMetaObject.connectSlotsByName(errorVentana)
     # setupUi
 
-    def retranslateUi(self, Form):
-        Form.setWindowTitle(QCoreApplication.translate("Form", u"Error", None))
+    def retranslateUi(self, errorVentana):
+        errorVentana.setWindowTitle(QCoreApplication.translate("errorVentana", u"Error", None))
         self.icono.setText("")
-        self.textoError.setText(QCoreApplication.translate("Form", u"TextLabel", None))
+        self.textoError.setText(QCoreApplication.translate("errorVentana", u"Error desconocido. Intentelo de nuevo m\u00e1s tarde.", None))
     # retranslateUi
 
