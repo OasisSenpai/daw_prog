@@ -91,7 +91,14 @@ class ControladorPrincipal(QMainWindow):
             datosTabla.append(fila_datos)
         with open(f'{self.tablaActual}.csv', 'w', encoding='utf-8') as archivo:
             for fila in datosTabla:
-                archivo.write(f'{fila}\n')
+                valores: List[str] = []
+                for elemento in fila:
+                    if ',' in elemento or '"' in elemento:
+                        elemento = elemento.replace('"', '""')
+                        valores.append(f'"{elemento}"')
+                    else:
+                        valores.append(elemento)
+                archivo.write(f'{';'.join(valores)}\n')
 
 
     def filtrar_tabla(self, texto) -> None:

@@ -4,7 +4,7 @@
 __pycache__/
 controladores/__pycache__/
 controladores/lib/__pycache__/
-modelos/
 vistas/__pycache__/
 database/
-scripts_creacion.sql
+
+OasisSenpai_daw_prog.url
