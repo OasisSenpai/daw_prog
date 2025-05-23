@@ -16,21 +16,18 @@ class Materias:
                                  {fila[6] if fila[6] != '' else 'NULL'},\
                                  {fila[7] if fila[7] not in ('', 'None') else 'NULL'},\
                                  {fila[8] if fila[8] not in ('', 'None') else 'NULL'})")
-            sentenciaUpdate = (f"UPDATE materias SET nombre = '{fila[1]}', id_curso = {fila[2]},\
-                                 grupo = '{fila[3]}',\
+            sentenciaUpdate = (f"UPDATE materias SET nombre = '{fila[1]}', grupo = '{fila[3]}',\
                                  horas_semanales = {fila[4] if fila[4] != '' else 'NULL'},\
                                  id_tipo = {fila[5] if fila[5] != '' else 'NULL'},\
                                  id_departamento = {fila[6] if fila[6] != '' else 'NULL'},\
                                  id_especialidad = {fila[7] if fila[7] not in ('', 'None') else 'NULL'},\
                                  id_optativa = {fila[8] if fila[8] not in ('', 'None') else 'NULL'}\
-                                 WHERE id = {fila[0]}")
+                                 WHERE id = {fila[0]} and id_curso = {fila[2]}")
             try:
                 cursor.execute(sentenciaInsert)
-                print(sentenciaInsert)
             except mysql.connector.Error as error:
                 if error.errno == 1062:  # errorcode.ER_DUP_ENTRY  # Duplicate entry error
                     cursor.execute(sentenciaUpdate)
-                    print(sentenciaUpdate)
                 else:
                     print(error)
 
@@ -41,8 +38,7 @@ class Materias:
             fila = [str(elemento) for elemento in fila]
             if fila not in datosTabla:
                 cursor.execute(f"DELETE FROM materias WHERE id = {fila[0]}")
-                print(fila)
-                print(f"DELETE FROM materias WHERE id = {fila[0]}")
+                print(f"DELETE FROM materias WHERE id = {fila[0]} and id_curso = {fila[2]}")
 
 
     @staticmethod

@@ -1,6 +1,7 @@
 .idea/
 .vscode/
 
+.coverage
 __pycache__/
 controladores/__pycache__/
 controladores/lib/__pycache__/

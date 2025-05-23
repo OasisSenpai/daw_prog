@@ -38,18 +38,18 @@ class ControladorLogin(QMainWindow):
     
     def conexion_base_datos(self, usuario: str, contrasenia: str, direccion: str, bbdd: str) -> MySQLConnection | None:
         try:   
-            # conexion: MySQLConnection = mysql.connector.connect(
-            #     user=usuario,  
-            #     password=contrasenia,
-            #     host=direccion,  
-            #     database=bbdd  
-            # )
             conexion: MySQLConnection = mysql.connector.connect(
-                user='root',
-                password='',
-                host='localhost',
-                database='daw_prog'
+                user=usuario,  
+                password=contrasenia,
+                host=direccion,  
+                database=bbdd  
             )
+            # conexion: MySQLConnection = mysql.connector.connect(
+            #     user='root',
+            #     password='',
+            #     host='localhost',
+            #     database='daw_prog'
+            # )
             return conexion
         except mysql.connector.Error as err:
             if err.errno == errorcode.ER_ACCESS_DENIED_ERROR:
